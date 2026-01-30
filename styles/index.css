@@ -1,0 +1,12 @@
+body {}
+#wrap{}
+#wrap header {}
+#wrap header h1 a {}
+#wrap header nav {}
+#wrap header nav #gnb {}
+#wrap header nav #gnb li a {}
+#wrap header nav #gnb li .gnb_depth2 {}
+#wrap header nav #gnb li .gnb_depth2 li a {}
+#wrap header nav #gnb li .gnb_depth2 li .gnb_depth3 {}
+#wrap header nav #gnb li .gnb_depth2 li .gnb_depth3 li a {}
+#wrap main
