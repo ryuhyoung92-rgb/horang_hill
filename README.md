@@ -6,3 +6,7 @@
 * header -  gnb - lnb HTML 제작완료
 * **gnb, lnb(depth2~3) 모두 ul-li-a 통일해서 구성하기**
 * 시멘틱태그 `<nav>` 사용하기
+### 26/02/20 update
+* css 선택자 작업 완료
+* header css 작업 완료
+* main herobnr 작업 중
