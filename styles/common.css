@@ -58,3 +58,13 @@ body {}
 /* =============================================== footer */
 #wrap footer {}
 #wrap footer p {}
+/* =============================================== main w1220+p70 */
+#wrap main .container_layout {
+    width:1220px; margin:0 auto; padding:70px 0;
+}
+#wrap main .container_layout h1 {
+    font-size:1.50rem; font-weight:600; margin:0 0 30px;
+}
+#wrap main .container_layout h1+p {
+    font-size:0.94rem; line-height:1.7; margin:0 0 30px; color:#555;
+}
