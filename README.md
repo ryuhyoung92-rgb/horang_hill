@@ -10,5 +10,5 @@
 * css 선택자 작업 완료
 * header css 작업 완료
 * main hero-bnr 작업 중
-### 26/02/25 update
+### 26/02/25~26 update
 * 피그마에 맞춰 index.html 작업 중

@@ -213,14 +213,38 @@
 #wrap main .container_layout .contents li h2 {
     font-weight:600; font-size:1.13rem;
 }
-#wrap main .container_layout .more {
-    border-bottom:1px solid #000;
-    width:max-content; margin:0 auto; display:block;
-    font-size:0.94rem;
-}
-    /* text-decoration:underline; 밑줄과 굴자사이 여백불가능 */
+#wrap main .container_layout .more {}
+/* text-decoration:underline; 밑줄과 굴자사이 여백불가능 */
 /* 
 가운데
 text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 */
 /* --------------------------------------------------------------------------------4. 객실 및 예약안내 */
+#wrap main #reservation_info {}
+#wrap main .container_layout {}
+#wrap main .container_layout .reservation {background-color: blueviolet;}
+#wrap main .container_layout .reservation h1 {}
+#wrap main .container_layout .reservation p {}
+#wrap main .room {
+    display:flex; flex-flow:row nowrap;
+    align-items:center; justify-content:space-between;
+    width:500px; background-color: aquamarine;
+}
+#wrap main .room .contents_main {}
+#wrap main .room .contents_main a {}
+#wrap main .room .contents_main h2 {}
+#wrap main .room .contents_main p {}
+#wrap main .room .contents_sub {
+    background-color: aqua;
+    display:flex; flex-flow:row nowrap;
+    align-items:center; justify-content:;
+    width:100%;
+}
+#wrap main .room .contents_sub li {
+    background-color: brown;
+    width:calc((100% - 60px) / 4);
+}
+#wrap main .room .contents_sub li a {}
+#wrap main .room .contents_sub li a img {}
+#wrap main .room .contents_sub li h2 {}
+#wrap main .container_layout .more {}

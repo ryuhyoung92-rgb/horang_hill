@@ -68,3 +68,13 @@ body {}
 #wrap main .container_layout h1+p {
     font-size:0.94rem; line-height:1.7; margin:0 0 30px; color:#555;
 }
+#wrap main .more {
+    border-bottom:1px solid #000;
+    width:max-content; margin:0 auto; display:block;
+    font-size:0.94rem;
+}
+/* text-decoration:underline; 밑줄과 굴자사이 여백불가능 */
+/* 
+가운데
+text-align 부모한테 명령 -> 자식, 자손 인라인 적용
+*/
