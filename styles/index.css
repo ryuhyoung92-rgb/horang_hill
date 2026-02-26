@@ -220,31 +220,49 @@
 text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 */
 /* --------------------------------------------------------------------------------4. 객실 및 예약안내 */
-#wrap main #reservation_info {}
-#wrap main .container_layout {}
-#wrap main .container_layout .reservation {background-color: blueviolet;}
-#wrap main .container_layout .reservation h1 {}
-#wrap main .container_layout .reservation p {}
-#wrap main .room {
+#wrap main .info_wrap {}
+#wrap main .info_wrap .container_layout {}
+#wrap main .info_wrap .container_layout .reservation {/* background-color: blueviolet; */}
+#wrap main .info_wrap .container_layout .reservation h1 {}
+#wrap main .info_wrap .container_layout .reservation p {}
+/* #wrap main .info_wrap .room {
     display:flex; flex-flow:row nowrap;
     align-items:center; justify-content:space-between;
     width:500px; background-color: aquamarine;
 }
-#wrap main .room .contents_main {}
-#wrap main .room .contents_main a {}
-#wrap main .room .contents_main h2 {}
-#wrap main .room .contents_main p {}
-#wrap main .room .contents_sub {
-    background-color: aqua;
+#wrap main .info_wrap .room .contents_main {}
+#wrap main .info_wrap .room .contents_main a {}
+#wrap main .info_wrap .room .contents_main h2 {}
+#wrap main .info_wrap .room .contents_main p {} */
+#wrap main .info_wrap .contents {
+    /* background-color: aqua; */
     display:flex; flex-flow:row nowrap;
-    align-items:center; justify-content:;
-    width:100%;
+    align-items:center; justify-content:space-between;
+    width:1220px; margin:0 auto 80px;
 }
-#wrap main .room .contents_sub li {
-    background-color: brown;
-    width:calc((100% - 60px) / 4);
+#wrap main .info_wrap .contents li {}
+#wrap main .info_wrap .contents li a {}
+#wrap main .info_wrap .contents li a:last-child {}
+#wrap main .info_wrap .contents li a img {}
+#wrap main .info_wrap .contents li h2 {font-size:1.125rem; font-weight:600; margin-bottom:10px;}
+#wrap main .info_wrap .contents li p {font-size:0.875rem; line-height:1.7; color:#555;}
+#wrap main .info_wrap .container_layout .more {background-color:blue; margin-bottom:70px;}
+/* --------------------------------------------------------------------------------5. 게스트 하우스 찾아오시는 길 */
+#wrap main .container_layout {width:1220px; margin:0 auto;}
+#wrap main .container_layout .find_map {
+    /* background-color: bisque; */
+    display:flex; flex-flow:row nowrap;
+    align-items:center; justify-content:space-between;
 }
-#wrap main .room .contents_sub li a {}
-#wrap main .room .contents_sub li a img {}
-#wrap main .room .contents_sub li h2 {}
-#wrap main .container_layout .more {}
+#wrap main .container_layout .find_map h1 {font-size:1.5rem; font-weight:800;}
+#wrap main .container_layout .find_map p {font-size:1rem; color:#000;}
+#wrap main .container_layout .map {}
+#wrap main .container_layout .map img {width:100%;}
+#wrap main #bus_info {display:block; width: 1220px; margin:0 auto 50px;}
+#wrap main #bus_info p {font-size:0.9375rem; line-height:1.8; color:#555;}
+#wrap main #bus_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555;}
+#wrap main #bus_info .bus {}
+#wrap main #bus_info .bus p {}
+#wrap main #subway_info {display:block; width: 1220px; margin:0 auto 70px;}
+#wrap main #subway_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555;}
+#wrap main #subway_info p {font-size:0.9375rem; line-height:1.8; color:#555;}
