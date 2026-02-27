@@ -11,4 +11,6 @@
 * header css 작업 완료
 * main hero-bnr 작업 중
 ### 26/02/25~26 update
-* 피그마에 맞춰 index.html 작업 중
+* 피그마에 맞춰 index.html, css 작업 중
+### 26/02/27
+* 호랑가시나무게스트하우스 1차 작업 완료

@@ -55,9 +55,6 @@ body {}
     display:block; line-height:46px;
     text-align:center;
 }
-/* =============================================== footer */
-#wrap footer {}
-#wrap footer p {}
 /* =============================================== main w1220+p70 */
 #wrap main .container_layout {
     width:1220px; margin:0 auto; padding:70px 0;
@@ -78,3 +75,12 @@ body {}
 가운데
 text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 */
+/* =============================================== footer */
+#wrap footer {
+    background-color:rgba(0,0,0,0.9); padding:70px 0;
+}
+#wrap footer #ft {max-width:1220px; margin:0 auto; width:100%;}
+#wrap footer #ft address,
+#wrap footer #ft p {color:#fff; font-size:0.81rem; line-height:2;}
+#wrap footer #ft address {}
+#wrap footer #ft p {}

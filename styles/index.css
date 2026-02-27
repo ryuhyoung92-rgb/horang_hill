@@ -195,7 +195,7 @@
     /* background-color: aquamarine; */
     display:flex; flex-flow:row nowrap;
     justify-content:space-between;
-    margin-bottom:50px;
+    margin-bottom:80px;
     /* 메인축정렬 */
     /* ul+a 여백 */
 }
@@ -221,48 +221,62 @@ text-align 부모한테 명령 -> 자식, 자손 인라인 적용
 */
 /* --------------------------------------------------------------------------------4. 객실 및 예약안내 */
 #wrap main .info_wrap {}
-#wrap main .info_wrap .container_layout {}
+#wrap main .info_wrap .container_layout {
+}
 #wrap main .info_wrap .container_layout .reservation {/* background-color: blueviolet; */}
 #wrap main .info_wrap .container_layout .reservation h1 {}
 #wrap main .info_wrap .container_layout .reservation p {}
-/* #wrap main .info_wrap .room {
+#wrap main .info_wrap .room {
     display:flex; flex-flow:row nowrap;
     align-items:center; justify-content:space-between;
-    width:500px; background-color: aquamarine;
+    width:1220px;
+    margin-bottom:80px; gap:20px;
 }
-#wrap main .info_wrap .room .contents_main {}
-#wrap main .info_wrap .room .contents_main a {}
-#wrap main .info_wrap .room .contents_main h2 {}
-#wrap main .info_wrap .room .contents_main p {} */
-#wrap main .info_wrap .contents {
-    /* background-color: aqua; */
+#wrap main .info_wrap .container_layout .room .contents_main {}
+#wrap main .info_wrap .container_layout .room .contents_main a {}
+#wrap main .info_wrap .container_layout .room .contents_main a img {
+    margin-bottom:10px;
+}
+#wrap main .info_wrap .container_layout .room .contents_main h2 {
+    font-size:1.125rem; font-weight:600; margin-bottom:10px;
+}
+#wrap main .info_wrap .container_layout .room .contents_main p {
+    font-size:0.875rem; line-height:1.7; color:#555;
+}
+#wrap main .info_wrap .container_layout .room .contents_sub {
     display:flex; flex-flow:row nowrap;
     align-items:center; justify-content:space-between;
-    width:1220px; margin:0 auto 80px;
+    margin:0 auto; gap:20px;
 }
-#wrap main .info_wrap .contents li {}
-#wrap main .info_wrap .contents li a {}
-#wrap main .info_wrap .contents li a:last-child {}
-#wrap main .info_wrap .contents li a img {}
-#wrap main .info_wrap .contents li h2 {font-size:1.125rem; font-weight:600; margin-bottom:10px;}
-#wrap main .info_wrap .contents li p {font-size:0.875rem; line-height:1.7; color:#555;}
-#wrap main .info_wrap .container_layout .more {background-color:blue; margin-bottom:70px;}
+#wrap main .info_wrap .container_layout .room .contents_sub li {}
+#wrap main .info_wrap .container_layout .room .contents_sub li a {}
+#wrap main .info_wrap .container_layout .room .contents_sub li a:last-child {}
+#wrap main .info_wrap .container_layout .room .contents_sub li a img {margin-bottom:10px;}
+#wrap main .info_wrap .container_layout .room .contents_sub li h2 {font-size:1.125rem; font-weight:600;}
+#wrap main .info_wrap .container_layout .more {}
 /* --------------------------------------------------------------------------------5. 게스트 하우스 찾아오시는 길 */
-#wrap main .container_layout {width:1220px; margin:0 auto;}
+#wrap main .container_layout {
+    width:1220px; margin:0 auto;}
 #wrap main .container_layout .find_map {
-    /* background-color: bisque; */
     display:flex; flex-flow:row nowrap;
     align-items:center; justify-content:space-between;
+    position: relative;
 }
-#wrap main .container_layout .find_map h1 {font-size:1.5rem; font-weight:800;}
-#wrap main .container_layout .find_map p {font-size:1rem; color:#000;}
+#wrap main .container_layout .find_map h1 {
+    font-size:1.5rem; font-weight:800;
+}
+#wrap main .container_layout .find_map p {font-size:1rem; color:#000;
+position:absolute; right:0; top:5%;}
 #wrap main .container_layout .map {}
-#wrap main .container_layout .map img {width:100%;}
-#wrap main #bus_info {display:block; width: 1220px; margin:0 auto 50px;}
-#wrap main #bus_info p {font-size:0.9375rem; line-height:1.8; color:#555;}
-#wrap main #bus_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555;}
-#wrap main #bus_info .bus {}
-#wrap main #bus_info .bus p {}
-#wrap main #subway_info {display:block; width: 1220px; margin:0 auto 70px;}
-#wrap main #subway_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555;}
-#wrap main #subway_info p {font-size:0.9375rem; line-height:1.8; color:#555;}
+#wrap main .container_layout .map img {width:100%; margin-bottom:30px;}
+#wrap main .container_layout #bus_info {
+    display:block; width: 1220px; margin:0 auto;
+}
+#wrap main .container_layout #bus_info h1 {}
+#wrap main .container_layout #bus_info .bus {}
+#wrap main .container_layout #bus_info .bus p {}
+#wrap main .container_layout #bus_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555; margin-bottom:0;}
+#wrap main .container_layout #bus_info .bus p {font-size:0.9375rem; line-height:1.8; color:#555; margin-bottom:40px;}
+#wrap main .container_layout #subway_info {display:block; width: 1220px; margin:0 auto;}
+#wrap main .container_layout #subway_info h1 {font-size:1.5rem; font-weight:800; line-height:1.8; color:#555; margin-bottom:0;}
+#wrap main .container_layout #subway_info p {font-size:0.9375rem; line-height:1.8; color:#555;}
